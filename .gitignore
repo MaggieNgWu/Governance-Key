@@ -10,3 +10,5 @@ tmp/
 *.lck
 .idea/
 out/
+key-mini-toolkit/gradle.properties
+key-mini-toolkit/secring.gpg

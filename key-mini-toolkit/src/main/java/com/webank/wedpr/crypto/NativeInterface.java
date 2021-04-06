@@ -40,6 +40,7 @@ public class NativeInterface {
     public static native CryptoResult curve25519VRFGetPubKeyFromPrivateKey(String privateKey);
     public static native CryptoResult curve25519VRFProofToHash(String vrfProof);
     public static native CryptoResult curve25519IsValidVRFPubKey(String vrfPublicKey);
+    public static native CryptoResult sm2ComputeE(String pubKey, String message);
 
     private static String resolveLibTail(String os){
         os = os.toLowerCase();
