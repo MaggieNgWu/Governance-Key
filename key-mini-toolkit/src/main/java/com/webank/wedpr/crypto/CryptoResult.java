@@ -15,13 +15,11 @@ import lombok.NoArgsConstructor;
 public class CryptoResult {
     public String signature;
     public String publicKey;
-    public String privteKey;
-    public boolean result;
+    public String privateKey;
     public String hash;
-    public String wedprErrorMessage;
+    public boolean booleanResult;
+    public String encryptedData;
+    public String decryptedData;
     public String vrfProof;
-    public boolean vrfVerifyResult;
-    public String vrfPublicKey;
-    public String vrfHash;
-    public boolean isValidVRFPublicKey;
+    public String wedprErrorMessage;
 }
