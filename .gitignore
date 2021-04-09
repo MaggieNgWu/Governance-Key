@@ -12,3 +12,4 @@ tmp/
 out/
 key-mini-toolkit/gradle.properties
 key-mini-toolkit/secring.gpg
+key-mini-toolkit/src/main/resources/.DS_Store
